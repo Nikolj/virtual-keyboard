@@ -16,6 +16,7 @@ function isCaps(code) {
   return [keys.capsKey, keys.capsKeyCode].includes(code);
 }
 
+
 function isShift(code) {
   return [keys.shiftKey, keys.shiftLeftKey, keys.shiftRightKey].includes(code);
 }
