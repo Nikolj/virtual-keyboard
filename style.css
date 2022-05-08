@@ -77,7 +77,6 @@
 .shift {
   text-transform: uppercase;
 }
-
 .always-shift {
   position: absolute;
   top: 0;
@@ -89,7 +88,6 @@
   border: none;
   border-radius: 5px;
 }
-
 .always-shift::after {
   font-size: 18px;
   content: '^';
