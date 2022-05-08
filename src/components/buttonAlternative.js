@@ -12,6 +12,7 @@ class ButtonAlternative extends Button {
     this.shifted = false;
   }
 
+  
   shift() {
     [this.text, this.altText] = [this.altText, this.text];
     this.changeText();
