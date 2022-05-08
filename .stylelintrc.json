@@ -6,5 +6,6 @@
     "scss/at-rule-no-unknown": true,
     "declaration-colon-newline-after": null,
     "color-hex-length": "long"
+    
   }
 }
