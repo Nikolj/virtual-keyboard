@@ -31,12 +31,9 @@ class Keyboard {
 
     const info = document.createElement('p');
     info.textContent = `Смена языка - '${keys.ctrlKey}' + '${keys.shiftKey}'`;
-
     const infoSystem = document.createElement('p');
     infoSystem.textContent = 'В ОС Windows создавалась виртуальная клавиатура';
-
     this.textArea.classList.add('text');
-
     keyboardKeys.append(this.createKeys());
     keyboard.append(keyboardKeys);
     wrapper.append(this.textArea, keyboard, info, infoSystem);
