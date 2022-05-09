@@ -289,7 +289,6 @@ class Keyboard {
         if (!utils.isCaps(button.code) && !utils.isShift(button.code)) {
           button.node.classList.add('active');
         }
-
         button.node.click();
       }
     }
